@@ -1,10 +1,10 @@
 <?php
 
-namespace Zepson\Dpo;
+namespace Hemmy\Dpo;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Zepson\Dpo\Commands\DpoCommand;
+use Hemmy\Dpo\Commands\DpoCommand;
 
 class DpoServiceProvider extends PackageServiceProvider
 {

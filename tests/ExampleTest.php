@@ -1,6 +1,6 @@
 <?php
 
-namespace Zepson\Dpo\Tests;
+namespace Hemmy\Dpo\Tests;
 
 class ExampleTest extends TestCase
 {

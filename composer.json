@@ -1,24 +1,24 @@
 {
-    "name": "zepson/dpo-laravel",
+    "name": "hemmy/dpo-laravel",
     "description": "A simple package to add DPO API to your laravel application and make payment processing much easy",
     "keywords": [
         "dpo",
-        "zepson",
+        "hemmy",
         "dpo-laravel"
     ],
-    "homepage": "https://github.com/zepson/dpo-laravel",
+    "homepage": "https://github.com/hemmy/dpo-laravel",
     "license": "MIT",
     "authors": [
         {
-            "name": "Zepson Technologies",
-            "email": "ujumbe@zepson.co.tz",
+            "name": "Hemmy Technologies",
+            "email": "ujumbe@hemmy.co.tz",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.4|^8.0",
-        "spatie/laravel-package-tools": "^1.1",
-        "illuminate/contracts": "^8.0"
+        "php": "=>7.4",
+        "spatie/laravel-package-tools": "=>1.1",
+        "illuminate/contracts": "=>8.0"
     },
     "require-dev": {
         "orchestra/testbench": "^6.0",
@@ -28,13 +28,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Zepson\\Dpo\\": "src",
-            "Zepson\\Dpo\\Database\\Factories\\": "database/factories"
+            "Hemmy\\Dpo\\": "src",
+            "Hemmy\\Dpo\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Zepson\\Dpo\\Tests\\": "tests"
+            "Hemmy\\Dpo\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -48,10 +48,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Zepson\\Dpo\\DpoServiceProvider"
+                "Hemmy\\Dpo\\DpoServiceProvider"
             ],
             "aliases": {
-                "Dpo": "Zepson\\Dpo\\DpoFacade"
+                "Dpo": "Hemmy\\Dpo\\DpoFacade"
             }
         }
     },

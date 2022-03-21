@@ -1,11 +1,11 @@
 <?php
 
-namespace Zepson\Dpo;
+namespace Hemmy\Dpo;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Zepson\Dpo\Dpo
+ * @see \Hemmy\Dpo\Dpo
  * 
  */
 class DpoFacade extends Facade

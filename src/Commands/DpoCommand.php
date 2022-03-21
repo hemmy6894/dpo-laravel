@@ -1,6 +1,6 @@
 <?php
 
-namespace Zepson\Dpo\Commands;
+namespace Hemmy\Dpo\Commands;
 
 use Illuminate\Console\Command;
 

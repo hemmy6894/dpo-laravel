@@ -31,7 +31,7 @@ Basic Usage Example.
 ```php
 <?php
 
-use Zepson\Dpo\Dpo;
+use Hemmy\Dpo\Dpo;
 
 
 $dpo = new Dpo();
@@ -43,7 +43,7 @@ $order = [
     'customerAddress' => "Tanzania",
     'customerCity' => "Dodoma",
     'customerPhone' => "0752771650",
-    'customerEmail' => "novath@zepson.co.tz",
+    'customerEmail' => "novath@hemmy.co.tz",
     'companyRef' => "34TESTREFF"
 ];
 // Now make  payment
@@ -57,13 +57,13 @@ $dpo->directPayment($data);
 Install the package Via Composer
 
 ```sh
-composer require zepson/dpo-laravel
+composer require hemmy/dpo-laravel
 ```
 
 Now You can Publish the configuration File and Migration
 
 ```sh
-php artisan vendor:publish --provider="Zepson\Dpo\DpoServiceProvider" --tag="dpo-laravel-migrations"
+php artisan vendor:publish --provider="Hemmy\Dpo\DpoServiceProvider" --tag="dpo-laravel-migrations"
 ```
 
 Migrate The Database table [OPTIONAL]
@@ -111,7 +111,7 @@ $order = [
     'customerAddress' => "Tanzania",
     'customerCity' => "Dodoma",
     'customerPhone' => "0752771650",
-    'customerEmail' => "novath@zepson.co.tz",
+    'customerEmail' => "novath@hemmy.co.tz",
     'companyRef' => "34TESTREFF"
 ];
 

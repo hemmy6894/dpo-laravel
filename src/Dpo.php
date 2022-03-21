@@ -1,12 +1,12 @@
 <?php
 
-namespace Zepson\Dpo;
+namespace Hemmy\Dpo;
 
 use Illuminate\Support\Facades\Redirect;
 
 /**
  * Dpo
- * @author Novath Thomas <ujumbe@zepson.co.tz>
+ * @author Novath Thomas <ujumbe@hemmy.co.tz>
  */
 class Dpo
 {
